@@ -5,7 +5,7 @@ azkiyaHanna
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200604-200524-e72a-azkiya.hanna/>
+200604-200524-e72a-azkiya.hanna/> 
 $ PS1="\$(eval \$PSTAMP)"
 200604-200707-9e5c-azkiya.hanna/> date
 Thu Jun  4 20:08:11 WIB 2020
